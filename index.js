@@ -2,7 +2,7 @@
 const gujaratTitans = {'cuurn': 90, 'A singh': 29, 'rabada': 54, 'short': 57, 'j sharma': 14, 's raza': 122, 's khn': 66, 'h singh': 37, 'taide': 4, 'r chr': 4, 'brar': 4};
 
 // Rajasthan Royals Squad
-const rajasthanRoyals = {'poran': 10, 'rahul': 106, 'wod': 54, 'mayer': 40, 'stonis': 41, 'pndya': 55, 'bhisnoi': 57, 'a khn': 12, 'y singh': 64};
+const rajasthanRoyals = {'poran': 10, 'Lokesh': 106, 'wod': 54, 'mayer': 40, 'stonis': 41, 'pndya': 55, 'bhisnoi': 57, 'a khn': 12, 'y singh': 64};
 
 // Define fixed players
 const fixedPlayers = ['rahul','cuurn','rabada','wod'];

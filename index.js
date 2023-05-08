@@ -5,14 +5,14 @@ const gujaratTitans = {'GURBAZ': 0, 'N RANA': 0, 'J ROY': 0, 'R SINGH': 0, 'V IY
 const rajasthanRoyals = {'J SHARMA': 0, 'P SINGH': 0, 'S DHAWAN': 0, 'S KHAN': 0, 'S CURRAN': 0, 'L LIVINGSTONE': 0, 'M SHORT': 0, 'A SINGH': 0, 'N ELLIS': 0, 'R CHAHAR':0, 'H BRAR':0};
 
 // Define fixed players
-const fixedPlayers = ['RUSESELL','S CURRAN'.'J ROY'];
+const fixedPlayers = ['RUSESELL','S CURRAN'.'J ROY','A SINGH'];
 
 // Generate a new Dream 11 team and update the HTML
 function generateNewTeam() {
     // Randomly select remaining players for the Dream 11 team from both arrays
     const remainingGujaratPlayers = Object.entries(gujaratTitans).filter((player) => !fixedPlayers.includes(player[0]));
     const remainingRajasthanPlayers = Object.entries(rajasthanRoyals).filter((player) => !fixedPlayers.includes(player[0]));
-    const dream11 = [...getRandomElementsFromArray(remainingGujaratPlayers, 3), ...getRandomElementsFromArray(remainingRajasthanPlayers, 5)];
+    const dream11 = [...getRandomElementsFromArray(remainingGujaratPlayers, 3), ...getRandomElementsFromArray(remainingRajasthanPlayers, 4)];
 
     // Add fixed players to the Dream 11 team
     for (let player of fixedPlayers) {

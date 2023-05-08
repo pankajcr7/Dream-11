@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Dream 11 Team Generator</title>
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<header>
+		<img src="logo.jpg" alt="Dream 11 Logo">
+	</header>
+
+	<div class="container">
+		<section id="team-section">
+			<h1>Dream 11 Team Generator</h1>
+			<p>PUNJAB VS KOLKOTA TEAMS</p>
+
+			<table class="player-name">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Player</th>
+						<th>Type</th>
+						<th>Points</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- Table rows will be dynamically generated with JavaScript -->
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="3">Total Points:</td>
+						<td><span id="total-points"></span></td>
+					</tr>
+					<tr>
+						<td class="captain" colspan="3">Captain:</td>
+						<td><span id="captain"></span></td>
+					</tr>
+					<tr>
+						<td class="vice-captain" colspan="3">Vice-Captain:</td>
+						<td><span id="vice-captain"></span></td>
+					</tr>
+				</tfoot>
+			</table>
+			<button id="generate-button">Generate New Team</button>
+		</section>
+
+	</div>
+
+	<script src="index.js"></script>
+</body>
+
+</html>

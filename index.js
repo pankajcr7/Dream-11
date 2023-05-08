@@ -5,7 +5,7 @@ const gujaratTitans = {'GURBAZ': 0, 'N RANA': 0, 'J ROY': 0, 'R SINGH': 0, 'V IY
 const rajasthanRoyals = {'J SHARMA': 0, 'P SINGH': 0, 'S DHAWAN': 0, 'S KHAN': 0, 'S CURRAN': 0, 'L LIVINGSTONE': 0, 'M SHORT': 0, 'A SINGH': 0, 'N ELLIS': 0, 'R CHAHAR':0, 'H BRAR':0};
 
 // Define fixed players
-const fixedPlayers = ['RUSESELL','S CURRAN'.'J ROY','A SINGH'];
+const fixedPlayers = ['RUSESELL','S CURRAN','J ROY','A SINGH'];
 
 // Generate a new Dream 11 team and update the HTML
 function generateNewTeam() {

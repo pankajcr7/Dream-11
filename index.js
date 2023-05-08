@@ -1,5 +1,5 @@
 // Gujarat Titans Squad
-const gujaratTitans = {'GURBAZ': 0, 'N RANA': 0, 'J ROY': 0, 'R SINGH': 0, 'V IYER': 0, 'RUSESELL': 0, 'S THAKUR': 0, 'S NARIENE': 0, 'V CHAKRAVARTHY': 0, 'V ARORA': 0, 'H RANA': 0, 'S Sharma'};
+const gujaratTitans = {'GURBAZ': 0, 'N RANA': 0, 'J ROY': 0, 'R SINGH': 0, 'V IYER': 0, 'RUSESELL': 0, 'S THAKUR': 0, 'S NARIENE': 0, 'V CHAKRAVARTHY': 0, 'V ARORA': 0, 'H RANA': 0, 'S Sharma': 0};
 
 // Rajasthan Royals Squad
 const rajasthanRoyals = {'J SHARMA': 0, 'P SINGH': 0, 'S DHAWAN': 0, 'S KHAN': 0, 'S CURRAN': 0, 'L LIVINGSTONE': 0, 'RAJAPKSA': 0, 'A SINGH': 0, 'N ELLIS': 0, 'R CHAHAR':0, 'H BRAR':0};

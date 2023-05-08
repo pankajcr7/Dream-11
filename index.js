@@ -12,7 +12,7 @@ function generateNewTeam() {
     // Randomly select remaining players for the Dream 11 team from both arrays
     const remainingGujaratPlayers = Object.entries(gujaratTitans).filter((player) => !fixedPlayers.includes(player[0]));
     const remainingRajasthanPlayers = Object.entries(rajasthanRoyals).filter((player) => !fixedPlayers.includes(player[0]));
-    const dream11 = [...getRandomElementsFromArray(remainingGujaratPlayers, 4), ...getRandomElementsFromArray(remainingRajasthanPlayers, 4)];
+    const dream11 = [...getRandomElementsFromArray(remainingGujaratPlayers, 3), ...getRandomElementsFromArray(remainingRajasthanPlayers, 5)];
 
     // Add fixed players to the Dream 11 team
     for (let player of fixedPlayers) {

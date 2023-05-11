@@ -1,11 +1,11 @@
 // Gujarat Titans Squad
-const gujaratTitans = {'CONWAY': 0, 'GAIKWAD': 0, 'DUBE': 0, 'RAHANE': 0, 'JADEJA': 0, 'M ALI': 0, 'T DESHPANDE': 0, 'M PATHIRANA': 0, 'M THEEKSHNA': 0, 'D CHAHAR': 0};
+const gujaratTitans = {'BUTTLER': 0, 'SAMSON': 0, 'JAISWAL': 0, 'HETMYER': 0, 'ROOT': 0, 'R ASHWIN': 0, 'Y CHAHAL': 0, 'BOULT': 0, 'SANDEEP SHARMA': 0, 'M ASWIN': 0};
 
 // Rajasthan Royals Squad
-const rajasthanRoyals = {'P SALT': 0, 'D WARNER': 0, 'R ROSSOUW': 0, 'M PANDEY': 0, 'M MARSH': 0, 'A PATEL': 0, 'K YADAV': 0, 'I SHARMA': 0, 'K AHMED': 0, 'M KUMAR':0};
+const rajasthanRoyals = {'GURBAZ': 0, 'J ROY': 0, 'N RANA': 0, 'V IYER': 0, 'R SINGH': 0, 'A RUSSELL': 0, 'S NARIENE': 0, 'V CHARVORTHY': 0, 'SUYASH SHARMA': 0, 'H RANA':0};
 
 // Define fixed players
-const fixedPlayers = ['M MARSH','CONWAY','JADEJA','A PATEL'];
+const fixedPlayers = ['BUTTLER','JAISWAL','A RUSSELL','N RANA'];
 
 // Generate a new Dream 11 team and update the HTML
 function generateNewTeam() {

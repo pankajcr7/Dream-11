@@ -1,8 +1,8 @@
 // Gujarat Titans Squad
-const gujaratTitans = {'BUTTLER': 0, 'SAMSON': 0, 'JAISWAL': 0, 'HETMYER': 0, 'ROOT': 0, 'R ASHWIN': 0, 'Y CHAHAL': 0, 'BOULT': 0, 'SANDEEP SHARMA': 0, 'M ASWIN': 0};
+const gujaratTitans = {'BUTTLER': 0, 'SAMSON': 0, 'JAISWAL': 0, 'HETMYER': 0, 'ROOT': 0, 'R ASHWIN': 0, 'Y CHAHAL': 0, 'SANDEEP SHARMA': 0, 'M ASWIN': 0};
 
 // Rajasthan Royals Squad
-const rajasthanRoyals = {'KARTHIK': 0, 'DUPLESIS': 0, 'V KOHLI': 0, 'M LOMROR': 0, 'G MAXWELL': 0, 'W HASARANGA': 0, 'M SIRAJ': 0, 'H PATEL': 0, 'J HAZELWOOD': 0, 'V VIJAYKUMAR':0};
+const rajasthanRoyals = {'KARTHIK': 0, 'DUPLESIS': 0, 'V KOHLI': 0, 'M LOMROR': 0, 'G MAXWELL': 0, 'BRACEWELL': 0, 'M SIRAJ': 0, 'H PATEL': 0, 'ZAMPA': 0, 'K SHARMA':0, 'PARNEL':0};
 
 // Define fixed players
 const fixedPlayers = [];
